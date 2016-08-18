@@ -1,0 +1,59 @@
+.header {
+	background: map-get($colors, first);
+	height: 80px;
+}
+
+.menu {
+	float: right;
+	padding: 30px 0;
+	margin: 0;
+
+	@include breakpoint('small'){
+		text-align: center;
+		float: none;
+	}
+}
+
+.list-menu {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	text-transform: uppercase;
+
+	@include breakpoint('small-small'){
+		margin: 0 4px;
+	}
+}
+
+.link-menu {
+	overflow: hidden;
+    padding: 0 4px;
+    display: inline-block;
+    cursor: pointer;
+
+    @include breakpoint('small-small'){
+    	padding: 0 2px;
+    	font-size: 15px;
+    }
+
+    span {
+		position: relative;
+		display: inline-block;
+		transition: transform 0.3s;
+
+		&:before {
+			position: absolute;
+			top: 100%;
+			content: attr(data-hover);
+			color: map-get($colors, second);
+			transform: translate3d(0,0,0);
+		}
+    }
+
+    &:hover {
+     	span {
+     		transform: translateY(-100%);
+     	}
+     }
+		
+}

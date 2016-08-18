@@ -1,0 +1,27 @@
+$colors: (
+	first         : #2D3E50,
+	second        : #E0A0A0,
+	third         : #93B7BE,
+	gray-light    : #F4F4F4,
+	text          : #ffffff,
+	border-color  : #dddddd,
+	bg-shadow     : rgba(0,0,0,0.6),
+
+	twitter	: #55acee,
+	facebook: #3b5998,
+	github: #333,
+	behance: #1769ff,
+	linkedin: #0077b5
+);
+
+$breakpoints: (
+	'xlarge'          : "(min-width: 1360px)",
+	'large'           : "(min-width: 1024px)",
+	'>=small<=medium' : "(min-width: 240px) and (max-width: 1023px)",
+	'>=medium'        : "(min-width: 730px)",
+	'medium'          : "(min-width: 730px) and (max-width: 1023px)",
+	'medium-small'    : "(min-width: 730px) and (max-width: 810px)",
+	'small'           : "(min-width: 240px) and (max-width: 729px)",
+	'small-small'     : "(min-width: 240px) and (max-width: 480px)"
+)
+

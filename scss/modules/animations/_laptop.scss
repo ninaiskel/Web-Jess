@@ -1,0 +1,332 @@
+.wrap-laptop {
+	width: 58%;
+	left: 22px;
+
+   @include breakpoint('xlarge') {
+      left: 15px;
+      width: 60%;
+   }
+
+   @include breakpoint('medium') {
+      left: 50px;
+      width: 60%;
+   }
+
+   @include breakpoint('small') {
+      left: 10px;
+      width: 56%;
+   }
+}
+
+//animation
+// teclado
+
+.tecla {
+	fill: #424242;
+}
+
+.tecl-1 {
+	animation: tecl-1 1s ease-in-out infinite;
+}
+
+@keyframes tecl-1 {
+   0% {
+   		fill: #424242;
+   }
+
+   50% {
+   		fill: #141414;
+   }
+
+   100% {
+   		fill: #424242;
+   }
+
+}
+
+.tecl-2 {
+	animation: tecl-2 1s ease-in-out infinite;	
+	animation-delay: 1.5s;
+}
+
+@keyframes tecl-2 {
+   0% {
+   		fill: #424242;
+   }
+
+   50% {
+   		fill: #141414;
+   }
+
+   
+   100% {
+   		fill: #424242;
+   }
+}
+
+.tecl-3 {
+	animation: tecl-3 1s ease-in-out infinite;	
+	animation-delay: 3s;
+}
+
+@keyframes tecl-3 {
+   0% {
+   		fill: #424242;
+   }
+
+   50% {
+   		fill: #141414;
+   }
+
+   
+   100% {
+   		fill: #424242;
+   }
+}
+
+.tecl-4 {
+	animation: tecl-4 1s ease-in-out infinite;	
+	animation-delay: 4s;
+}
+
+@keyframes tecl-4 {
+    0% {
+   		fill: #424242;
+   }
+
+   50% {
+   		fill: #141414;
+   }
+
+   
+   100% {
+   		fill: #424242;
+   }
+}
+
+.tecl-5 {
+	animation: tecl-5 1s ease-in-out infinite;	
+	animation-delay: 5s;
+}
+
+@keyframes tecl-5 {
+    0% {
+   		fill: #424242;
+   }
+
+   50% {
+   		fill: #141414;
+   }
+
+   
+   100% {
+   		fill: #424242;
+   }
+}
+
+.tecl-6 {
+	animation: tecl-6 1s ease-in-out infinite;	
+	animation-delay: 5.8s;
+}
+
+@keyframes tecl-6 {
+    0% {
+   		fill: #424242;
+   }
+
+   60% {
+   		fill: #141414;
+   }
+
+   
+   100% {
+   		fill: #424242;
+   }
+}
+
+.tecl-7 {
+	animation: tecl-7 1s ease-in-out infinite;	
+	animation-delay: 6.5s;
+}
+
+@keyframes tecl-7 {
+    0% {
+   		fill: #424242;
+   }
+
+   60% {
+   		fill: #141414;
+   }
+
+   
+   100% {
+   		fill: #424242;
+   }
+
+}
+
+.doctype {
+	animation: doctype 5s ease-in-out infinite;	
+	opacity: 1;
+}
+
+@keyframes doctype {
+   0% {
+   		opacity: 0
+   }
+
+   8% {
+   		opacity: 1;
+   }
+
+   97% {
+   		opacity: 1;
+   }
+   
+   100% {
+   		opacity: 0
+   }
+
+}
+
+.html-eng {
+	animation: html-1 5s ease-in-out infinite;	
+	opacity: 1;
+}
+
+@keyframes html-1 {
+    0% {
+   		opacity: 0
+   }
+
+   10% {
+         opacity: 0
+   }
+
+   15% {
+   		opacity: 1;
+   }
+
+   97% {
+   		opacity: 1;
+   }
+   
+   100% {
+   		opacity: 0
+   }
+}
+
+
+
+.include_head {
+   animation: include_head 5s ease-in-out infinite;  
+   opacity: 1;
+}
+
+@keyframes include_head {
+    0% {
+         opacity: 0
+   }
+
+   20% {
+         opacity: 0
+   }
+
+   25% {
+         opacity: 1;
+   }
+
+   97% {
+         opacity: 1;
+   }
+   
+   100% {
+         opacity: 0
+   }
+
+}
+
+.app {
+   animation: app 5s ease-in-out infinite;  
+   opacity: 1;
+}
+
+@keyframes app {
+    0% {
+         opacity: 0
+   }
+
+   30% {
+         opacity: 0
+   }
+
+   35% {
+         opacity: 1;
+   }
+
+   97% {
+         opacity: 1;
+   }
+   
+   100% {
+         opacity: 0
+   }
+
+}
+
+.id-top {
+   animation: id-top 5s ease-in-out infinite;  
+   opacity: 1;
+}
+
+@keyframes id-top {
+    0% {
+         opacity: 0
+   }
+
+   40% {
+         opacity: 0;
+   }
+
+   45% {
+         opacity: 1;
+   }
+
+   97% {
+         opacity: 1;
+   }
+   
+   100% {
+         opacity: 0
+   }
+
+}
+
+.include {
+   animation: include 5s ease-in-out infinite;  
+   opacity: 1;
+}
+
+@keyframes include {
+    0% {
+         opacity: 0
+   }
+
+   50% {
+         opacity: 0
+   }
+
+   55% {
+         opacity: 1;
+   }
+
+   97% {
+         opacity: 1;
+   }
+   
+   100% {
+         opacity: 0
+   }
+
+}
+

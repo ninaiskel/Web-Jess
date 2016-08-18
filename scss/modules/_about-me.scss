@@ -1,0 +1,81 @@
+.about-me {
+	background: map-get($colors, first);
+	padding: 60px 0;
+	position: relative;
+
+	@include breakpoint('small'){
+		text-align: center;
+	}
+
+	&:after {
+		content: '';
+    	position: absolute;
+    	background: map-get($colors, second);
+    	width: 100%;
+    	height: 25%;
+    	z-index: 0;
+    	left: 0;
+    	bottom: -118px;
+       	transform: skew(0, 5deg);
+
+       	@include breakpoint('medium') {
+       		bottom: -82px;
+       	}
+
+       	@include breakpoint('small') {
+			height: 15%;
+			bottom: -36px;
+       	}
+
+	}
+}
+
+.wrap-titles {
+	padding: 20px 0;
+
+	@include breakpoint('small'){
+		padding: 20px ;
+	}
+
+}
+
+.quote {
+	color: map-get($colors, third);
+	font-size: 35px;
+	font-family: 'Satisfy', cursive;
+
+	@include breakpoint('medium') {
+		font-size: 30px;
+	}
+
+	@include breakpoint('small') {
+		font-size: 28px;
+	}
+
+}
+
+.wrap-img-jess {
+	text-align: center;
+
+	@include breakpoint('small'){
+		margin: 40px 0 0;
+	}
+}
+
+.jess {
+	width: 240px;
+	position: relative;
+	z-index: 2;
+
+	@include breakpoint('medium') {
+	 	width: 200px;
+	}
+
+	@include breakpoint('small') {
+	 	width: 180px;
+	}
+
+	@include breakpoint('small-small') {
+		width: 150px;
+	}
+}

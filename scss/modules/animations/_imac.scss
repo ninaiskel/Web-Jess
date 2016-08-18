@@ -1,0 +1,183 @@
+.wrap-general {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+.wrap-img-iu {
+	
+	@include breakpoint('xlarge') {
+	  	left: -10px;
+	}
+		
+}
+
+.wrap-svgs  {
+	display: inline-block;
+	position: relative;
+}
+
+.wrap-imac {
+	width: 78%;
+    z-index: 1;
+    left: 8px;
+    top: -1px;
+
+     @include breakpoint('xlarge'){
+     	left: -10px;
+     }
+	
+	@include breakpoint('medium'){
+		left: 0px;
+		width: 80%;
+	}
+
+	@include breakpoint ('small') {
+	 	left: -3px;
+		width: 70%;
+		top: -30px;
+	}
+
+	@include breakpoint ('small-small') {
+		width: 78%;
+	}
+}
+
+.svg-animated {
+	width: auto;
+	position: relative;
+}
+
+.shadow-imac {
+	z-index: 1;
+    top: 68px;
+    left: 52px;
+    width: 86%;
+    position: absolute;
+
+    @include breakpoint('xlarge'){
+    	top:  84px;
+    	left: 64px;
+    }
+
+    @include breakpoint('medium'){
+    	top:  65px;
+    	left: 48px;
+    }
+
+    @include breakpoint('medium-small'){
+    	top:  58px;
+    	left: 46px;
+    }
+
+    @include breakpoint('small'){
+    	top:  60px;
+    	left: 55px;
+    }
+
+     @include breakpoint('small-small'){
+    	top:  44px;
+    	left: 33px;
+    }
+}
+
+.imac {
+	z-index: 2;
+}
+//inside animation
+.rect-blue, .rect-color-red {
+	opacity: 1;
+	animation: rect-blue 5s ease infinite;
+	fill: #E57473;
+}
+
+@keyframes rect-blue {
+	0% {
+		fill: #E57473;
+	}
+
+	40% {
+		fill: #E57473;
+	}
+
+	45% {
+		
+		fill: map-get($colors, third);
+	}
+
+	95% {
+		fill: map-get($colors, third);
+	}
+
+	100% {
+		fill: #E57473;
+	}	
+}
+
+.rect-gray-1 {
+	animation: rect-gray-1 5s ease infinite;
+	opacity: 1;
+
+}
+
+@keyframes rect-gray-1 {
+	0% {
+		opacity: 0;
+	}
+
+	10% {
+		opacity: 0;
+	}
+
+	20% {
+		opacity: 1;
+	}
+
+	
+	90% {
+		opacity: 1;
+	}
+
+	
+	100% {
+		opacity: 0;
+	}
+}
+
+.rect-gray-2 {
+	animation: rect-gray-2 5s ease infinite;
+	opacity: 1;
+	transform: translatex(0);
+}
+
+@keyframes rect-gray-2 {
+	0% {
+		opacity: 0;
+		transform: translatex(20px);
+	}
+
+	20% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+		transform: translatex(20px);
+	}
+
+	65% {
+		transform: translatex(0);
+	}
+
+	
+	90% {
+		opacity: 1;
+	}
+
+	
+	100% {
+		opacity: 0;
+	}
+}
+
+

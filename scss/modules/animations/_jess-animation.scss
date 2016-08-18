@@ -1,0 +1,466 @@
+.head {
+	transform: rotate(0);
+	transform-origin: center top;
+	-moz-transform-otigin: center top;
+	animation: head 5s linear infinite;
+	-moz-animation: head-moz 5s linear infinite;
+}
+
+@keyframes head {
+   0% {
+        transform: rotate(0deg);
+	}
+
+	12% {
+        transform: rotate(0deg);
+	}
+	
+	20% {
+        transform: rotate(1.4deg);
+        
+	}
+	
+	50% {
+		 transform: rotate(1.4deg);
+		 
+	}
+
+	58% {
+        transform: rotate(0deg);
+	}
+	
+		
+	100% {
+       transform: rotate(0deg);
+	}
+}
+
+
+@keyframes head-moz {
+   0% {
+        -moz-transform: rotate(0deg);
+	}
+
+	12% {
+        -moz-transform: rotate(0deg);
+	}
+	
+	20% {
+        -moz-transform: rotate(1deg);
+        
+	}
+	
+	50% {
+		 -moz-transform: rotate(1deg);
+		 
+	}
+
+	58% {
+        -moz-transform: rotate(0deg);
+	}
+	
+		
+	100% {
+       -moz-transform: rotate(0deg);
+	}
+}
+
+
+//hair
+.hair-back {
+	transform: rotate(0);
+	animation: hair-back 5s ease-in-out infinite;
+	transform-origin: top center
+}
+
+@keyframes hair-back {
+  	0% {
+        transform: rotate(0deg);
+	}
+
+	10% {
+        transform: rotate(0deg);
+	}
+	
+	30% {
+        transform: rotate(-1deg);
+	}
+
+	35% {
+		transform: rotate(0deg);
+	}
+
+	40% {
+        transform: rotate(-1deg);
+	}
+
+	45% {
+        transform: rotate(0deg);
+	}
+	
+	60% {
+		 transform: rotate(0deg);
+	}
+
+	65% {
+		transform: rotate(-1deg);
+	}
+	
+	70% {
+		transform: rotate(0deg);
+	}
+	
+	75% {
+		transform: rotate(-1deg);
+	}
+
+	75% {
+        transform: rotate(0deg);
+	}
+		
+	100% {
+       transform: rotate(0deg);
+	}
+}
+
+.only-hair {
+	transform: rotate(0);
+	transform-origin: top center;
+	animation: only-hair 5s ease-in-out infinite;
+	-moz-animation: only-hair-moz 5s ease-in-out infinite;
+	
+}
+
+@keyframes only-hair {
+   0% {
+        transform: rotate(0deg);
+	}
+
+	10% {
+        transform: rotate(0deg);
+	}
+
+	
+	31% {
+        transform: rotate(-2deg);
+	}
+	
+	61% {
+		 transform: rotate(-2deg);
+	}
+
+	80% {
+        transform: rotate(0deg);
+	}
+	
+		
+	100% {
+       transform: rotate(0deg);
+	}
+}
+
+@keyframes only-hair-moz {
+   0% {
+        -moz-transform: rotate(0deg);
+	}
+
+	10% {
+        -moz-transform: rotate(0deg);
+	}
+
+	
+	31% {
+        -moz-transform: rotate(-1deg);
+	}
+	
+	61% {
+		 -moz-transform: rotate(-1deg);
+	}
+
+	80% {
+        -moz-transform: rotate(0deg);
+	}
+	
+		
+	100% {
+       -moz-transform: rotate(0deg);
+	}
+}
+
+//bag
+
+.bag {
+	transform: rotate(0);
+	animation: bag 3.8s ease-in-out infinite;
+	
+}
+
+
+@keyframes bag {
+   0% {
+        transform: rotate(0deg);
+	}
+
+	
+	20% {
+        transform: rotate(0.4deg);
+	}
+
+	80% {
+        transform: rotate(-0.1deg);
+	}
+
+	
+	100% {
+       transform: rotate(0deg);
+	}
+}
+
+.arm-2 {
+	transform: rotate(0);
+	animation: arm-2 2s ease infinite;
+	
+}
+
+
+@keyframes arm-2 {
+   0% {
+        transform: rotate(0deg);
+	}
+
+	
+	50% {
+        transform: rotate(0.5deg);
+	}
+
+	
+	
+	100% {
+       transform: rotate(0deg);
+	}
+}
+
+.arm-1 {
+	transform: rotate(0deg);
+	animation: arm-1 5s ease-in-out infinite;
+	
+}
+
+
+@keyframes arm-1 {
+   0% {
+       transform: rotate(0deg);
+	}
+
+	10% {
+       transform: rotate(0deg);
+	}
+	
+	15% {
+        transform: rotate(0.4deg);
+	}
+
+	20% {
+        transform: rotate(0deg);
+	}
+
+	
+	100% {
+       transform: rotate(0deg);
+	}
+}
+
+//fingers
+.fingers {
+	transform: translate3d(0, 0, 0);
+}
+
+.finger-1 {
+	animation: finger-1 5s ease-in-out infinite;
+		
+}
+
+@keyframes finger-1 {
+   0% {
+       transform: translate3d(0, 0, 0);
+	}
+
+	26% {
+       transform: translate3d(0, 0, 0);
+	}
+
+	
+	30% {
+        transform: translate3d(1px, -1px, 0px);
+	}
+
+	34% {
+      transform: translate3d(0, 0, 0);
+	}
+
+	
+	100% {
+      transform: translate3d(0, 0, 0);
+	}
+}
+
+.finger-2 {
+	animation: finger-2 5s ease-in-out infinite;
+	animation-delay: .2s
+	
+}
+
+@keyframes finger-2 {
+   0% {
+       transform: translate3d(0, 0, 0);
+	}
+	26% {
+       transform: translate3d(0, 0, 0);
+	}
+	
+	30% {
+        transform: translate3d(1px, -1px, 0px);
+	}
+
+	34% {
+      transform: translate3d(0, 0, 0);
+	}
+
+	
+	100% {
+      transform: translate3d(0, 0, 0);
+	}
+}
+
+.finger-3 {
+	animation: finger-3 5s ease-in-out infinite;
+	animation-delay: .4s
+	
+}
+
+@keyframes finger-3 {
+   0% {
+       transform: translate3d(0, 0, 0);
+	}
+
+	
+	26% {
+       transform: translate3d(0, 0, 0);
+	}
+
+	
+	30% {
+        transform: translate3d(1px, -1px, 0px);
+	}
+
+	34% {
+      transform: translate3d(0, 0, 0);
+	}
+
+	
+	
+	100% {
+      transform: translate3d(0, 0, 0);
+	}
+}
+
+.finger-4 {
+	animation: finger-4 5s ease infinite;
+	animation-delay: .6s
+	
+}
+
+@keyframes finger-4 {
+   0% {
+       transform: translate3d(0, 0, 0);
+	}
+
+	26% {
+       transform: translate3d(0, 0, 0);
+	}
+
+	
+	30% {
+        transform: translate3d(1px, -1px, 0px);
+	}
+
+	34% {
+      transform: translate3d(0, 0, 0);
+	}
+	
+	
+	100% {
+      transform: translate3d(0, 0, 0);
+	}
+}
+
+//shirt
+
+.shirt {
+	transform: rotate(0deg);
+	fill: map-get($colors, third);
+	animation: shirt 6s ease infinite;
+}
+
+@keyframes shirt {
+	 0% { 
+	 	fill: map-get($colors, third); 
+	 	transform: rotate(0deg);
+	 }
+  	
+  	50% { 
+  		fill: darken-color(map-get($colors, third), 06%) ; 
+  		transform: rotate(0.4deg);
+  	}
+
+  	100% { 
+	 	fill: map-get($colors, third); 
+	 	transform: rotate(0deg);
+	 }
+}
+
+//shoes
+
+.shoe-1, .foot-1{
+	transform: rotate(0deg);
+	animation: shoe-1 1s ease infinite;
+	-moz-animation: shoe-2 1s ease infinite;
+	transform-origin: right bottom;
+	-moz-transform-origin: right bottom;
+}
+
+@keyframes shoe-1 {
+	 0% { 
+	 	
+	 	transform: rotate(0deg);
+	 }
+  	
+  	50% { 
+  		
+  		-webkit-transform: rotate(-1deg);
+  		transform: rotate(-1deg);
+  	}
+
+  	100% { 
+	 	
+	 	transform: rotate(0deg);
+	 }
+
+}
+
+@keyframes shoe-2 {
+	 0% { 
+	 	-moz-transform: rotate(0deg);
+	 }
+  	
+  	50% { 
+  		
+  		-moz-transform: rotate(-0.1deg);
+  	}
+
+  	100% { 
+	 	
+	 	-moz-transform: rotate(0deg);
+	 }
+}
+

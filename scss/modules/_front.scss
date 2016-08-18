@@ -1,0 +1,49 @@
+.front {
+	background: map-get($colors, third);
+	padding: 80px 0 320px;
+	position: relative;
+
+	@include breakpoint('medium') {
+		padding: 50px 0 220px;
+	}
+
+	@include breakpoint('small') {
+		padding: 40px 0 220px;
+	}
+
+	&:after {
+		content: '';
+    	position: absolute;
+    	background: map-get($colors, gray-light);
+    	width: 100%;
+    	height: 32%;
+    	z-index: 0;
+    	left: 0;
+    	bottom: -126px;
+       	transform: skew(0, 5deg);
+
+       	@include breakpoint('medium') {
+			height: 16%;
+			bottom: -60px;
+       	}
+
+	   	@include breakpoint('small') {
+	   		height: 14%;
+	   	 	bottom: -40px;
+	   	}
+	}
+}
+
+.sass {
+	font-size: 25px;
+	font-weight: 700;
+	color: lighten-color(map-get($colors, first), 40%);
+
+		@include breakpoint('medium') {
+			font-size: 23px;
+       	}
+
+	   	@include breakpoint('small') {
+	   		font-size: 19px;
+	   	}
+}

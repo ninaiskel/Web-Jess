@@ -1,0 +1,24 @@
+.wrap-draw {
+	width: 37%;
+    left: 298px;
+    top: -100px;
+
+	@include breakpoint('xlarge') {
+		left: 370px;
+		top: -134px;
+	}
+	
+	
+	@include breakpoint('medium') {
+		left: 100px;
+	    top: 10px;
+	    width: 37%;
+	}
+
+	@include breakpoint('small') {
+		width: 34%;
+		top: -46px;
+		left: 52px;
+	}
+	
+}

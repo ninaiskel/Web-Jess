@@ -1,0 +1,40 @@
+.wrap-coffe-1 {
+    width: 18%;
+    left: 0px;
+    top: -40px;
+    z-index: 2;
+
+    @include breakpoint ('medium') {
+    	width: 18%;
+	    left: -6px;
+	    top: 0px;
+	    z-index: 2;
+    }
+
+    @include breakpoint ('small') {
+    	width: 16%;
+	}
+  
+}
+
+
+.wrap-coffe-2 {
+    width: 16%;
+    float: right;
+    right: 0px;
+    top: 56px;
+     
+    @include breakpoint('xlarge') {
+        top: -156px;
+        right: -10px;
+    }
+
+    @include breakpoint ('medium') {
+        display: none;
+     }
+
+     @include breakpoint ('small-small') {
+         display: none;
+     }
+
+}

@@ -1,0 +1,21 @@
+.wrap-pendrive {
+	width: 4%;
+    z-index: 2;
+    left: -184px;
+    top: -12px;
+
+   	@include breakpoint('xlarge') {
+		left: -202px;
+   		top: -40px;
+  	}
+    
+    @include breakpoint('medium') {
+        left: 38px;
+        top: -102px
+    }
+
+    @include breakpoint('small') {
+        display: none;
+    }
+
+}

@@ -1,0 +1,9 @@
+.wrap-content {
+	position: relative;
+	z-index: 1;
+
+	@include breakpoint('small'){
+		text-align: center;
+		
+	}
+}

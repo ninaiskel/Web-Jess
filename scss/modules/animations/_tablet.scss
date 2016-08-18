@@ -1,0 +1,26 @@
+.wrap-img-html {
+	
+	@include breakpoint('xlarge') {
+	  	left: 20px;
+	}
+
+	 @include breakpoint('small') {
+	 	left: 0;
+	 	margin-top: 60px;
+	 }
+}
+
+.wrap-tablet {
+	width: 24%;
+	top: -16px;
+	left: 16px;
+
+	@include breakpoint('medium') {
+	 	left: 34px;
+	 	width: 26%;
+	}
+
+	@include breakpoint('small') {
+      left: 0px;
+     }
+}

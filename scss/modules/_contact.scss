@@ -1,0 +1,103 @@
+.contact {
+	background: map-get($colors, gray-light);
+	padding: 80px 0;
+
+	.subtitle {
+		color: map-get($colors, first);
+	}
+
+	@include breakpoint('small'){
+		text-align: center;
+		padding: 20px 0 40px;
+	}
+
+
+}
+
+.links-socials {
+	float: right;
+	margin: 0;
+	padding: 0;
+
+	li {
+		display: inline-block;
+		margin: 0 10px;
+
+		@include breakpoint('medium'){
+			margin: 0 8px;
+		}
+
+		@include breakpoint('small'){
+			margin: 0 6px;
+		}
+	}
+
+	@include breakpoint('small'){
+		text-align: center;
+		padding-top: 20px;
+		float: inherit;
+		width: 100%;
+	}
+}
+
+.icon-social {
+	transition: all 0.6s ease;
+	transform: scale(1) rotate(0deg);
+
+
+	
+	path {
+		transition: all 0.6s ease;
+		fill: map-get($colors, third);
+	}
+
+	@include breakpoint('medium'){
+		width: 40px;
+	}
+	@include breakpoint('small'){
+		width: 38px;
+	}
+	
+
+	&:hover {
+		transform: scale(1.1) rotate(10deg);
+	}
+
+
+
+}
+
+.twitter {
+	&:hover {
+		path{
+			fill: map-get($colors, twitter);
+		}
+	}
+}
+
+.behance {
+	&:hover {
+		path{
+			fill: map-get($colors, behance);
+		}
+		
+	}
+}
+
+.github {
+	&:hover {
+		path{
+			fill: map-get($colors, github);
+		}
+		
+	}
+}
+
+.linkedin {
+	&:hover {
+		path{
+			fill: map-get($colors, linkedin);
+		}
+		
+	}
+}

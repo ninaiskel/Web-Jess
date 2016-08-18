@@ -1,0 +1,45 @@
+$susy: (
+  columns: 8,
+  container: 980px,
+  global-box-sizing: border-box
+);
+
+
+/* Makes border-box properties */
+@include border-box-sizing;
+
+.wrap {
+  @include container;
+
+  @include breakpoint('xlarge') {
+    max-width: 1200px;
+  }
+
+  @include breakpoint('medium') {
+    margin: 0 40px;
+  }
+
+  @include breakpoint('small') {
+    margin: 0 20px;
+  }
+
+}
+
+.content-left {
+  @include span(4);
+  @include border-box-sizing; 
+
+  @include breakpoint('small') {
+	@include span(8); 
+  }
+
+}
+
+.content-right {
+  @include span(4 last); 
+  @include border-box-sizing;
+
+  @include breakpoint('small') {
+	@include span(8); 
+  }
+}

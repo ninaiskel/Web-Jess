@@ -1,0 +1,40 @@
+.wrap-phone {
+    width: 15%;
+    left: -194px;
+    top: 40px;
+    z-index: 2;
+
+     @include breakpoint('xlarge') {
+         left: -228px;
+     }
+
+    @include breakpoint('medium') {
+        left: 40px;
+        top: -18px;
+    }
+
+    @include breakpoint('small') {
+        left: -14px;
+        top: -74px;
+    }
+}
+
+.phone-1 {
+    opacity: 1;
+}
+
+.light-green {
+    animation: light-green 0.8s ease infinite;
+    opacity: 1;
+}
+
+@keyframes light-green {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+         opacity: 1;
+    }
+}
+

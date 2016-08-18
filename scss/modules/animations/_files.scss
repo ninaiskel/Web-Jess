@@ -1,0 +1,17 @@
+.wrap-files {
+	top: 30px;
+    left: -50px;
+    width: 35%;
+    z-index: 1;
+
+    @include breakpoint('xlarge') {
+        
+      
+    }
+
+   @include breakpoint('>=small<=medium') {
+        display: none;
+    }
+}
+
+

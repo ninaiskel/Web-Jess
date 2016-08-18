@@ -1,0 +1,49 @@
+.footer {
+	background: white;
+	padding: 40px 0;
+	text-align: center;
+
+	p {
+		color: map-get($colors, first);
+		font-size: 16px;
+	}
+}
+
+.heart {
+    position: relative;
+    width: 19px;
+    height: 11px;
+    top: 2px;
+    left: 4px;
+   	display: inline-block;
+    animation:b 1.5s ease-in-out infinite;
+
+    &:before, &:after {
+    	position: absolute;
+	    content: "";
+	    width: 6px;
+	    height: 10px;
+	    background: map-get($colors, second);
+	    border-radius: 50px 50px 0 0;
+	    transform-origin: 0 100%;
+	    transform: rotate(-45deg);
+    }
+
+    &:after {
+    	left: 0;
+    	transform: rotate(45deg);
+    	transform-origin: 100% 100%;
+    }
+
+    &:before {
+    	left: 6px;
+    }
+
+}
+
+@keyframes b{
+	  0%{ transform: scale(1);}
+	  50%{ transform: scale(1.1);}
+	  100%{ transform: scale(1);}
+	}
+

@@ -1,0 +1,46 @@
+.title {
+	font-family: 'Satisfy', cursive;
+	font-size: 66px;
+	font-weight: 400;
+
+	@include breakpoint('>=small<=medium'){
+		font-size: 46px;
+	}
+
+	@include breakpoint('small-small') {
+		font-size: 40px;
+	}
+
+}
+
+.title-shadow-blue {
+	text-shadow: 4px 4px 0px darken-color(map-get($colors, first),25%);
+}
+
+.title-shadow-pink {
+	text-shadow: 4px 4px 0px darken-color(map-get($colors, second),25%);
+}
+
+
+.title-shadow-aqua {
+	text-shadow: 4px 4px 0px darken-color(map-get($colors, third),25%);
+}
+
+.title-shadow-gray {
+	text-shadow: 4px 4px 0px darken-color(map-get($colors, gray-light),25%);
+}
+
+
+.subtitle {
+	font-family: 'Satisfy', cursive;
+	font-size: 50px;
+
+	@include breakpoint('>=small<=medium'){
+		font-size: 38px;
+		margin-bottom: 20px;
+	}
+
+	@include breakpoint('small-small') {
+		font-size: 29px;
+	}
+}	

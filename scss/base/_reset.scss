@@ -1,0 +1,25 @@
+body {
+	font-family: 'Karla', sans-serif;
+	color: map-get($colors, text);
+	font-size: 18px;
+
+	@include breakpoint('>=small<=medium') {
+	  	font-size: 16px;
+	}
+
+	@include breakpoint('small-small') {
+		font-size: 15px;
+	}
+
+
+
+	a {
+		color: map-get($colors, text);
+		text-decoration: none;
+	}
+}
+
+h1, h2, h3 {
+	margin: 0px 0 6px;
+	font-weight: 400;
+}
