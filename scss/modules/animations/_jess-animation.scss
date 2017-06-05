@@ -11,25 +11,24 @@
         transform: rotate(0deg);
 	}
 
-	12% {
+	10% {
         transform: rotate(0deg);
 	}
-	
+
 	20% {
         transform: rotate(1.4deg);
-        
 	}
-	
+
 	50% {
 		 transform: rotate(1.4deg);
-		 
+
 	}
 
 	58% {
         transform: rotate(0deg);
 	}
-	
-		
+
+
 	100% {
        transform: rotate(0deg);
 	}
@@ -44,22 +43,22 @@
 	12% {
         -moz-transform: rotate(0deg);
 	}
-	
+
 	20% {
         -moz-transform: rotate(1deg);
-        
+
 	}
-	
+
 	50% {
 		 -moz-transform: rotate(1deg);
-		 
+
 	}
 
 	58% {
         -moz-transform: rotate(0deg);
 	}
-	
-		
+
+
 	100% {
        -moz-transform: rotate(0deg);
 	}
@@ -81,9 +80,9 @@
 	10% {
         transform: rotate(0deg);
 	}
-	
+
 	30% {
-        transform: rotate(-1deg);
+        transform: rotate(-1.4deg);
 	}
 
 	35% {
@@ -97,7 +96,7 @@
 	45% {
         transform: rotate(0deg);
 	}
-	
+
 	60% {
 		 transform: rotate(0deg);
 	}
@@ -105,11 +104,11 @@
 	65% {
 		transform: rotate(-1deg);
 	}
-	
+
 	70% {
 		transform: rotate(0deg);
 	}
-	
+
 	75% {
 		transform: rotate(-1deg);
 	}
@@ -117,7 +116,7 @@
 	75% {
         transform: rotate(0deg);
 	}
-		
+
 	100% {
        transform: rotate(0deg);
 	}
@@ -128,7 +127,7 @@
 	transform-origin: top center;
 	animation: only-hair 5s ease-in-out infinite;
 	-moz-animation: only-hair-moz 5s ease-in-out infinite;
-	
+
 }
 
 @keyframes only-hair {
@@ -140,11 +139,11 @@
         transform: rotate(0deg);
 	}
 
-	
+
 	31% {
         transform: rotate(-2deg);
 	}
-	
+
 	61% {
 		 transform: rotate(-2deg);
 	}
@@ -152,8 +151,8 @@
 	80% {
         transform: rotate(0deg);
 	}
-	
-		
+
+
 	100% {
        transform: rotate(0deg);
 	}
@@ -168,11 +167,11 @@
         -moz-transform: rotate(0deg);
 	}
 
-	
+
 	31% {
         -moz-transform: rotate(-1deg);
 	}
-	
+
 	61% {
 		 -moz-transform: rotate(-1deg);
 	}
@@ -180,8 +179,8 @@
 	80% {
         -moz-transform: rotate(0deg);
 	}
-	
-		
+
+
 	100% {
        -moz-transform: rotate(0deg);
 	}
@@ -192,7 +191,7 @@
 .bag {
 	transform: rotate(0);
 	animation: bag 3.8s ease-in-out infinite;
-	
+
 }
 
 
@@ -201,16 +200,16 @@
         transform: rotate(0deg);
 	}
 
-	
+
 	20% {
-        transform: rotate(0.4deg);
+        transform: rotate(0.5deg);
 	}
 
 	80% {
         transform: rotate(-0.1deg);
 	}
 
-	
+
 	100% {
        transform: rotate(0deg);
 	}
@@ -218,8 +217,8 @@
 
 .arm-2 {
 	transform: rotate(0);
-	animation: arm-2 2s ease infinite;
-	
+	animation: arm-2 1s ease infinite;
+
 }
 
 
@@ -228,13 +227,13 @@
         transform: rotate(0deg);
 	}
 
-	
+
 	50% {
         transform: rotate(0.5deg);
 	}
 
-	
-	
+
+
 	100% {
        transform: rotate(0deg);
 	}
@@ -243,7 +242,7 @@
 .arm-1 {
 	transform: rotate(0deg);
 	animation: arm-1 5s ease-in-out infinite;
-	
+
 }
 
 
@@ -255,7 +254,7 @@
 	10% {
        transform: rotate(0deg);
 	}
-	
+
 	15% {
         transform: rotate(0.4deg);
 	}
@@ -264,7 +263,7 @@
         transform: rotate(0deg);
 	}
 
-	
+
 	100% {
        transform: rotate(0deg);
 	}
@@ -276,8 +275,8 @@
 }
 
 .finger-1 {
-	animation: finger-1 5s ease-in-out infinite;
-		
+	animation: finger-1 4.5s ease-in-out infinite;
+
 }
 
 @keyframes finger-1 {
@@ -289,7 +288,7 @@
        transform: translate3d(0, 0, 0);
 	}
 
-	
+
 	30% {
         transform: translate3d(1px, -1px, 0px);
 	}
@@ -298,7 +297,7 @@
       transform: translate3d(0, 0, 0);
 	}
 
-	
+
 	100% {
       transform: translate3d(0, 0, 0);
 	}
@@ -307,7 +306,7 @@
 .finger-2 {
 	animation: finger-2 5s ease-in-out infinite;
 	animation-delay: .2s
-	
+
 }
 
 @keyframes finger-2 {
@@ -317,7 +316,7 @@
 	26% {
        transform: translate3d(0, 0, 0);
 	}
-	
+
 	30% {
         transform: translate3d(1px, -1px, 0px);
 	}
@@ -326,7 +325,7 @@
       transform: translate3d(0, 0, 0);
 	}
 
-	
+
 	100% {
       transform: translate3d(0, 0, 0);
 	}
@@ -335,7 +334,7 @@
 .finger-3 {
 	animation: finger-3 5s ease-in-out infinite;
 	animation-delay: .4s
-	
+
 }
 
 @keyframes finger-3 {
@@ -343,12 +342,12 @@
        transform: translate3d(0, 0, 0);
 	}
 
-	
+
 	26% {
        transform: translate3d(0, 0, 0);
 	}
 
-	
+
 	30% {
         transform: translate3d(1px, -1px, 0px);
 	}
@@ -357,8 +356,8 @@
       transform: translate3d(0, 0, 0);
 	}
 
-	
-	
+
+
 	100% {
       transform: translate3d(0, 0, 0);
 	}
@@ -367,7 +366,7 @@
 .finger-4 {
 	animation: finger-4 5s ease infinite;
 	animation-delay: .6s
-	
+
 }
 
 @keyframes finger-4 {
@@ -379,7 +378,7 @@
        transform: translate3d(0, 0, 0);
 	}
 
-	
+
 	30% {
         transform: translate3d(1px, -1px, 0px);
 	}
@@ -387,8 +386,8 @@
 	34% {
       transform: translate3d(0, 0, 0);
 	}
-	
-	
+
+
 	100% {
       transform: translate3d(0, 0, 0);
 	}
@@ -399,22 +398,22 @@
 .shirt {
 	transform: rotate(0deg);
 	fill: map-get($colors, third);
-	animation: shirt 6s ease infinite;
+	animation: shirt 5s ease infinite;
 }
 
 @keyframes shirt {
-	 0% { 
-	 	fill: map-get($colors, third); 
+	 0% {
+	 	fill: map-get($colors, third);
 	 	transform: rotate(0deg);
 	 }
-  	
-  	50% { 
-  		fill: darken-color(map-get($colors, third), 06%) ; 
+
+  	50% {
+  		fill: darken-color(map-get($colors, third), 06%) ;
   		transform: rotate(0.4deg);
   	}
 
-  	100% { 
-	 	fill: map-get($colors, third); 
+  	100% {
+	 	fill: map-get($colors, third);
 	 	transform: rotate(0deg);
 	 }
 }
@@ -430,37 +429,36 @@
 }
 
 @keyframes shoe-1 {
-	 0% { 
-	 	
+	 0% {
+
 	 	transform: rotate(0deg);
 	 }
-  	
-  	50% { 
-  		
+
+  	50% {
+
   		-webkit-transform: rotate(-1deg);
   		transform: rotate(-1deg);
   	}
 
-  	100% { 
-	 	
+  	100% {
+
 	 	transform: rotate(0deg);
 	 }
 
 }
 
 @keyframes shoe-2 {
-	 0% { 
+	 0% {
 	 	-moz-transform: rotate(0deg);
 	 }
-  	
-  	50% { 
-  		
+
+  	50% {
+
   		-moz-transform: rotate(-0.1deg);
   	}
 
-  	100% { 
-	 	
+  	100% {
+
 	 	-moz-transform: rotate(0deg);
 	 }
 }
-

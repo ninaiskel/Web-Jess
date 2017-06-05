@@ -10,8 +10,6 @@
 		text-align: center;
 		padding: 20px 0 40px;
 	}
-
-
 }
 
 .links-socials {
@@ -45,7 +43,7 @@
 	transform: scale(1) rotate(0deg);
 
 
-	
+
 	path {
 		transition: all 0.6s ease;
 		fill: map-get($colors, third);
@@ -57,7 +55,7 @@
 	@include breakpoint('small'){
 		width: 38px;
 	}
-	
+
 
 	&:hover {
 		transform: scale(1.1) rotate(10deg);
@@ -80,7 +78,6 @@
 		path{
 			fill: map-get($colors, behance);
 		}
-		
 	}
 }
 
@@ -89,7 +86,6 @@
 		path{
 			fill: map-get($colors, github);
 		}
-		
 	}
 }
 
@@ -98,6 +94,13 @@
 		path{
 			fill: map-get($colors, linkedin);
 		}
-		
+	}
+}
+
+.codepen {
+	&:hover {
+		path{
+			fill: map-get($colors, github);
+		}
 	}
 }
